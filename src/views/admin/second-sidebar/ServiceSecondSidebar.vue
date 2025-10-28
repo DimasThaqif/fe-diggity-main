@@ -17,7 +17,7 @@ const isOpen = ref(false)
       class="gap-3 p-2.5 rounded-lg w-full hover:cursor-pointer " v-if="isOpen">
       <HeadingSix class="text-center" text="Portofolio" />
     </RouterLink>
-    <img src="@/assets/icons/right.png" alt="right" class="mt-auto xl:size-6 lg:size-4 me-auto hover:cursor-pointer"
+    <img src="@/assets/icons/copyright.png" alt="right" class="mt-auto xl:size-6 lg:size-4 me-auto hover:cursor-pointer"
       @click="isOpen = !isOpen">
   </WrapperSecondSidebar>
   <RouterView />

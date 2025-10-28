@@ -8,7 +8,7 @@ import Paragraph from './fonts/Paragraph.vue'
   <div class="grid grid-cols-3 xl:p-24 lg:p-16 bg-secondary text-onSecondary xl:gap-24 lg:gap-16">
     <div class="flex flex-col xl:gap-12 lg:gap-8">
       <div class="flex items-center xl:gap-6 lg:gap-4 xl:mb-6 lg:mb-4">
-        <img src="@/assets/images/logo.png" alt="diggity logo" class="xl:size-24 lg:size-16 " />
+        <img src="@/assets/images/image.png" alt="diggity logo" class="xl:size-24 lg:size-16 " />
         <div class="xl:space-y-3 lg:space-y-2">
           <HeadingOne text="Diggity" class="font-bold" />
           <Paragraph text="Craft Your Digital Dream" class="font-semibold" />

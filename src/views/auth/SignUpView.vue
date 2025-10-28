@@ -10,10 +10,10 @@ import RoutesName from '@/router/routes';
 
 <template>
   <div class="grid grid-cols-5 h-dvh">
-    <img src="@/assets/images/auth-bg.png" alt="auth bg" class="object-cover h-full col-span-2">
+    <img src="@/assets/images/image.png" alt="auth bg" class="object-cover h-full col-span-2">
     <div class="flex flex-col col-span-3 xl:p-36 lg:p-24 xl:gap-6 lg:gap-4">
       <div class="flex xl:gap-6 lg:gap-4 xl:mb-6 lg:mb-4">
-        <img src="@/assets/images/logo.png" alt="logo" class="xl:size-24 lg:size-16">
+        <img src="@/assets/images/image.png" alt="logo" class="xl:size-24 lg:size-16">
         <div>
           <HeadingTwo text="Diggity" />
           <HeadingOne text="Account" />

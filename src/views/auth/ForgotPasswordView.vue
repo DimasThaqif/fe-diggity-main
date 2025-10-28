@@ -33,7 +33,7 @@ const onSubmit = handleSubmit(async (values) => {
   <div class="flex items-center justify-center h-dvh">
     <Card class="w-lg xl:p-12 lg:p-8">
       <div class="flex items-center justify-center xl:gap-6 lg:gap-4">
-        <img src="@/assets/images/logo.png" alt="logo" class="xl:size-24 lg:size-16">
+        <img src="@/assets/images/image.png" alt="logo" class="xl:size-24 lg:size-16">
         <div>
           <HeadingOne text="Diggity" />
         </div>

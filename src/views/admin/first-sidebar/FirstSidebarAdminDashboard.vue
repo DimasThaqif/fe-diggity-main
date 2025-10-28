@@ -36,7 +36,7 @@ console.log(sessionStorage.getItem('token'))
         <Info />
         <HeadingSix text="Tentang" v-if="isSideBarOpened" />
       </div>
-      <img src="@/assets/icons/slide-right.png" alt="slide right"
+      <img src="@/assets/icons/copyright.png" alt="slide right"
         class="mt-auto xl:size-6 lg:size-4 hover:cursor-pointer" @click="toggleSidebar">
     </div>
     <RouterView />

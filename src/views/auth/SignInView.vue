@@ -37,7 +37,7 @@ const onSubmit = handleSubmit(async (values) => await authStore.signIn(values.em
   <div class="flex items-center justify-center min-h-screen">
     <Card class="w-lg xl:p-12 lg:p-8">
       <div class="flex items-center justify-center xl:gap-6 lg:gap-4">
-        <img src="@/assets/images/logo.png" alt="logo" class="xl:size-24 lg:size-16">
+        <img src="@/assets/images/image.png" alt="logo" class="xl:size-24 lg:size-16">
         <HeadingOne text="Diggity" />
       </div>
       <form class="flex flex-col xl:mt-12 lg:mt-8 xl:gap-6 lg:gap-4" @submit="onSubmit">

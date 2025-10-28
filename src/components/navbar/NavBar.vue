@@ -12,7 +12,7 @@ const authStore = useAuthStore()
   <div
     class="relative flex items-center xl:px-24 lg:px-16 xl:py-8 lg:py-5 xl:gap-6 lg:gap-4 shadow-navbar bg-onPrimary">
     <RouterLink :to="RoutesName.serviceRoute" class="flex items-center xl:gap-6 lg:gap-4">
-      <img src="@/assets/images/logo.png" alt="logo" class="xl:size-16 lg:size-10">
+      <img src="@/assets/images/image.png" alt="logo" class="xl:size-16 lg:size-10">
       <HeadingTwo text="Diggity" />
     </RouterLink>
     <div class="ms-auto xl:space-x-6 lg:space-x-4" v-if="!authStore.isLoggedIn">
